@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+/*body here*/
+body {
+    max-width: 1920px;
+}
+
+
+header {
+    background-color: rgba(255, 255, 255, 0.864);
+    color: green;
+    box-shadow: 0 2px 6px rgba(0, 0 ,0 ,0.1);
+    gap: 15px;
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+
+
+header h1 {
+    font-size: 40px;
+    padding-left: 80px;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-size: 20px;
+}
+
+.container a {
+    color: green;
+    padding: 15px;
+    transition: all 0.1s linear;
+    border-radius: 5px;
+}
+
+.container a:hover{
+    background-color: rgb(2, 85, 2);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.img-button {
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    padding-right: 80px;
+}
+
+.img {
+    transition: all 0.2s linear;
+}
+
+.img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.image{
+    width: 25px;
+    margin: 5px;
+    padding-right: 5px;
+}
+
+
+
+.botao {
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.btn {
+    border-radius: 15px;
+    padding: 7px 30px;
+    border: none;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s linear;
+}
+
+.btn:hover{
+    background-color: rgb(2, 85, 2);
+    cursor: pointer;
+}
+
+.banner-text{
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    box-shadow: 0 2px 6px black;
+    background-image: url('/images/happy-waiters-bringing-food-table-serving-group-friends-restaurant.jpg');
+}
+
+.text {
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    text-align: left;
+    max-width: 100%;
+    padding: 100px 0 0 60px;
+}
+
+.text h2 {
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+ .text p  {
+    max-width: 500px;
+    margin-top: 30px;
+    font-weight: 200px;
+    background-color: rgba(102, 50, 2, 0.541);
+    font-size: 20px;
+    padding: 30px;
+ }
+
+ .btn-banner {
+    border: none;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: inline-block;
+    width: 100%;
+    transition: all 0.2s ease;
+ }
+
+ .btn-banner:hover{
+    background-color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+ }
+
+
+ .container-sobre {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+ }
+/*
+ .sobre-text {
+
+ }
+ */
+
+ .sobre-text h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 30px;
+ }
+
+ .sobre-text p {
+    padding-top: 5px;
+    color: grey;
+ }
+
+ .container-chefs {
+    border-radius: 20px;
+    padding-top: 80px;
+    overflow: hidden;   
+    padding-bottom: 60px;
+ }
+
+ .chefs {
+    display: flex;
+ }
+
+ .chefs-text {
+    display: inline-block;
+    padding: 28px 0 20px 20px
+ }
+    
+.chefs-text h3{
+    font-size: 40px;
+    margin-bottom: 20px
+}
+
+.chefs-text p {
+    line-height: 1.6;
+    font-size: 20px;
+    color: grey;
+}
+
+
+/*--seção-cardapio*/ 
+
+ #cardapio {
+    max-width: 100%;
+    background-color: black;
+    box-shadow: 2px -10px 8px 10px;
+ }
+
+.season-cardapio {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    
+}
+
+.cardapio-title {
+    color: white;
+    padding-top: 80px;
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 150px;
+    border-bottom: 1px solid rgb(47, 45, 45);
+}
+
+.cardapio-container {
+    max-width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 80px 10px  rgba(252, 251, 251, 0.299); /*quando terminar retirar e colocar borda no container-cardapio*/
+    display: inline-block;
+    margin: 0 0 30px 30px;
+    
+}
+
+
+.text-cardapio-container {
+    background-color: white;
+
+}
+
+
+.ingredientes-text {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.lista-cardapio {
+    margin-left: 30px;
+    padding-bottom: 15px;
+}
+
+.btn-cardapio {
+    text-decoration: none;
+    border: none;
+    background-color: rgb(20, 88, 8);
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+    
+}
+
+.btn-cardapio:hover {
+    background-color: rgb(1, 73, 1);
+    cursor: pointer;
+}
+
+.rodape-container {
+    max-width: 100%;
+    background-color: rgb(2, 35, 2);
+}
+
+.text-rodape-container {
+    
+}
