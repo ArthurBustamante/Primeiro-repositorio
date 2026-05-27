@@ -8,7 +8,7 @@
 
 /*body here*/
 body {
-    max-width: 1920px;
+    max-width:100%
 }
 
 
@@ -100,8 +100,8 @@ header h1 {
 .banner-text{
     background-size: cover;
     max-width: 100%;
-    background-repeat: no-repeat;
     height: 800px;
+    background-repeat: no-repeat;
     box-shadow: 0 2px 6px black;
     background-image: url('/images/happy-waiters-bringing-food-table-serving-group-friends-restaurant.jpg');
 }
@@ -201,7 +201,7 @@ header h1 {
 
 
 /*--seção-cardapio*/ 
-
+/*CORRIGIR ESTRUTURA DE ZOOM DOS ELEMENTOS*/
  #cardapio {
     max-width: 100%;
     background-color: black;
@@ -209,7 +209,7 @@ header h1 {
  }
 
 .season-cardapio {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     padding-bottom: 12rem;
     
@@ -230,12 +230,12 @@ header h1 {
     display: inline-block;
     margin: 0 0 30px 30px;
     
+    
 }
 
 
 .text-cardapio-container {
     background-color: white;
-
 }
 
 
@@ -266,14 +266,9 @@ header h1 {
     cursor: pointer;
 }
 
-.rodape-container {
-    background-color: rgb(2, 35, 2);
-}
-
 .container-footer {
-    background: linear-gradient(to top, #340303,#340303, rgb(0, 0, 0));
-    
-    
+    background-color: white;
+    box-shadow: 0 5px 5px 10px white;
 }
 
 .boxtext-footer {
@@ -289,5 +284,19 @@ header h1 {
    padding: 20px 20px 0 20px;
    margin-top: 7rem;
    margin-bottom: 5rem;
-   color: white;
+   color: black;
+   
+}
+
+.text-design-footer {
+    padding-bottom: 10px;
+}
+
+.list-footer {
+    line-height: 1.5;
+    list-style: none;
+}
+
+.list-footer a {
+    color:grey;
 }
