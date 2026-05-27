@@ -211,7 +211,7 @@ header h1 {
 .season-cardapio {
     max-width: 1200px;
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding-bottom: 12rem;
     
 }
 
@@ -225,7 +225,6 @@ header h1 {
 }
 
 .cardapio-container {
-    max-width: 100%;
     background-color: white;
     box-shadow: 0 5px 80px 10px  rgba(252, 251, 251, 0.299); /*quando terminar retirar e colocar borda no container-cardapio*/
     display: inline-block;
@@ -268,10 +267,27 @@ header h1 {
 }
 
 .rodape-container {
-    max-width: 100%;
     background-color: rgb(2, 35, 2);
 }
 
-.text-rodape-container {
+.container-footer {
+    background: linear-gradient(to top, #340303,#340303, rgb(0, 0, 0));
     
+    
+}
+
+.boxtext-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.text-footer {
+   text-align: center;
+   padding: 20px 20px 0 20px;
+   margin-top: 7rem;
+   margin-bottom: 5rem;
+   color: white;
 }
