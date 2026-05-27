@@ -11,7 +11,6 @@ body {
     max-width:100%
 }
 
-
 header {
     background-color: rgba(255, 255, 255, 0.864);
     color: green;
@@ -24,8 +23,6 @@ header {
     align-items: center;
     position: fixed;
 }
-
-
 
 header h1 {
     font-size: 40px;
@@ -75,8 +72,6 @@ header h1 {
     margin: 5px;
     padding-right: 5px;
 }
-
-
 
 .botao {
     border-left: 1px solid black;
@@ -148,7 +143,6 @@ header h1 {
     
  }
 
-
  .container-sobre {
     max-width: 1200px;
     margin: 0 auto;
@@ -199,7 +193,6 @@ header h1 {
     color: grey;
 }
 
-
 /*--seção-cardapio*/ 
 /*CORRIGIR ESTRUTURA DE ZOOM DOS ELEMENTOS*/
  #cardapio {
@@ -212,7 +205,6 @@ header h1 {
     width: 1200px;
     margin: 0 auto;
     padding-bottom: 12rem;
-    
 }
 
 .cardapio-title {
@@ -229,10 +221,7 @@ header h1 {
     box-shadow: 0 5px 80px 10px  rgba(252, 251, 251, 0.299); /*quando terminar retirar e colocar borda no container-cardapio*/
     display: inline-block;
     margin: 0 0 30px 30px;
-    
-    
 }
-
 
 .text-cardapio-container {
     background-color: white;
@@ -258,7 +247,6 @@ header h1 {
     font-size: 20px;
     padding: 10px 0;
     transition: all 0.3s ease;
-    
 }
 
 .btn-cardapio:hover {
