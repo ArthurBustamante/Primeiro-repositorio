@@ -88,7 +88,7 @@ header h1 {
 }
 
 .btn:hover{
-    background-color: rgb(2, 85, 2);
+    background-color: rgb(5, 96, 5);
     cursor: pointer;
 }
 
@@ -129,7 +129,7 @@ header h1 {
     text-decoration: none;
     padding: 20px 30px;
     font-size: 35px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(22, 21, 21);
     color: white;
     display: inline-block;
     width: 100%;
@@ -197,8 +197,8 @@ header h1 {
 /*CORRIGIR ESTRUTURA DE ZOOM DOS ELEMENTOS*/
  #cardapio {
     max-width: 100%;
-    background-color: black;
-    box-shadow: 2px -10px 8px 10px;
+    background-color: rgb(13, 13, 13);
+    box-shadow: 2px -10px 8px 10px rgb(13, 13, 13);
  }
 
 .season-cardapio {
@@ -217,14 +217,14 @@ header h1 {
 }
 
 .cardapio-container {
-    background-color: white;
+    background-color: rgb(80, 80, 80);
     box-shadow: 0 5px 80px 10px  rgba(252, 251, 251, 0.299); /*quando terminar retirar e colocar borda no container-cardapio*/
     display: inline-block;
     margin: 0 0 30px 30px;
 }
 
 .text-cardapio-container {
-    background-color: white;
+    background-color: rgb(223, 219, 219);
 }
 
 
@@ -241,7 +241,7 @@ header h1 {
 .btn-cardapio {
     text-decoration: none;
     border: none;
-    background-color: rgb(20, 88, 8);
+    background-color: rgb(31, 171, 7);
     color: white;
     width: 100%;
     font-size: 20px;
@@ -255,7 +255,7 @@ header h1 {
 }
 
 .container-footer {
-    background-color: white;
+    background-color: rgb(225, 225, 225);
     box-shadow: 0 5px 5px 10px white;
 }
 
@@ -285,6 +285,15 @@ header h1 {
     list-style: none;
 }
 
-.list-footer a {
+.list-footer li {
     color:grey;
+    transition: all 0.08s ease;
+}
+
+.list-footer a {
+    color: grey
+}
+
+.list-footer a:hover {
+    color:rgb(101, 101, 101)
 }
