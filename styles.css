@@ -94,10 +94,11 @@ header h1 {
 
 .banner-text{
     background-size: cover;
-    max-width: 100%;
+    background-attachment: fixed;
     height: 800px;
     background-repeat: no-repeat;
     box-shadow: 0 2px 6px black;
+    background-position: center;
     background-image: url('/images/happy-waiters-bringing-food-table-serving-group-friends-restaurant.jpg');
 }
 
@@ -144,7 +145,7 @@ header h1 {
  }
 
  .container-sobre {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     margin-top: 60px;
     
@@ -197,30 +198,39 @@ header h1 {
 /*CORRIGIR ESTRUTURA DE ZOOM DOS ELEMENTOS*/
  #cardapio {
     max-width: 100%;
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(14, 13, 13);
     box-shadow: 2px -10px 8px 10px rgb(13, 13, 13);
+    padding-bottom: 50vh;
+    padding-top: 15vh;
+    background-attachment: fixed;
  }
 
 .season-cardapio {
-    width: 1200px;
+    max-width: 1500px;;
     margin: 0 auto;
-    padding-bottom: 12rem;
 }
 
 .cardapio-title {
     color: white;
-    padding-top: 80px;
-    font-size: 35px;
-    padding-bottom: 10px;
-    margin-bottom: 150px;
-    border-bottom: 1px solid rgb(47, 45, 45);
+    padding-bottom: 30vh;
+    font-size: 40px;
+}
+
+.position-cardapio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .cardapio-container {
-    background-color: rgb(80, 80, 80);
-    box-shadow: 0 5px 80px 10px  rgba(252, 251, 251, 0.299); /*quando terminar retirar e colocar borda no container-cardapio*/
-    display: inline-block;
-    margin: 0 0 30px 30px;
+    max-width: 350px;/*quando terminar retirar e colocar borda no container-cardapio*/
+    margin: auto;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+.img-cardapio {
+    width: 350px;
+
 }
 
 .text-cardapio-container {
@@ -239,61 +249,65 @@ header h1 {
 }
 
 .btn-cardapio {
+    width: 100%;
     text-decoration: none;
     border: none;
-    background-color: rgb(31, 171, 7);
+    background-color: rgb(213, 20, 20);
     color: white;
-    width: 100%;
     font-size: 20px;
     padding: 10px 0;
     transition: all 0.3s ease;
 }
 
 .btn-cardapio:hover {
-    background-color: rgb(1, 73, 1);
+    background-color: rgb(178, 19, 19);
     cursor: pointer;
 }
 
 .container-footer {
-    background-color: rgb(225, 225, 225);
-    box-shadow: 0 5px 5px 10px white;
+    max-width: 100%;
+    background-color: rgb(32, 30, 30);
+    padding-top: 15vh;
+    padding-bottom: 30vh;
 }
 
 .boxtext-footer {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    border-bottom: 1px solid black;
 }
 
 .text-footer {
-   text-align: center;
+   text-align: left;
    padding: 20px 20px 0 20px;
-   margin-top: 7rem;
-   margin-bottom: 5rem;
-   color: black;
+   padding-bottom: 18vh;
+   color: rgb(255, 255, 255);
    
 }
 
 .text-design-footer {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    font-size: 25px;
 }
 
 .list-footer {
     line-height: 1.5;
     list-style: none;
+    font-size: 18px;
 }
 
 .list-footer li {
-    color:grey;
+    color:rgb(90, 85, 85);
     transition: all 0.08s ease;
 }
 
 .list-footer a {
-    color: grey
+    color: rgb(124, 122, 122)
 }
 
 .list-footer a:hover {
-    color:rgb(101, 101, 101)
+    color:rgb(221, 217, 217)
 }
