@@ -387,7 +387,7 @@ header h1 {
    display: flex;
    justify-content: center;
    align-items: center;
-   background-image: url(/images/Cartaz\ De\ Futebol.jpg);
+   background-image: url(images/Cartaz\ De\ Futebol.jpg);
    background-size: 30%;
    background-repeat: no-repeat;
    background-position: left;
